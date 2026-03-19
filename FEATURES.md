@@ -107,48 +107,55 @@ This document lists the intended features of the **Apocalypse Computer**: an off
 - Useful for moving maps, documents, images, field reports, and backups
 - Works without cloud file services
 
+### 17. Pantry Helper API Integration
+- Integrates with the `pantry-helper` project via API calls
+- Shares pantry, food, inventory, and household supply data with the Apocalypse Computer
+- Supports local resilience workflows such as stock checks, supply planning, and consumption awareness
+- Enables the Apocalypse Computer to use pantry state as part of planning, coordination, and knowledge workflows
+- Should prefer local-network API access when available, with degraded behavior if the Pantry Helper service is offline
+
 ## Resilience and Recovery Features
 
-### 17. Degraded-Mode Operation
+### 18. Degraded-Mode Operation
 - Essential services remain available under low-power or partial-failure conditions
 - Supports a stripped-down “survival mode” with only core functions enabled
 
-### 18. Backup and Recovery Support
+### 19. Backup and Recovery Support
 - Local configuration backups
 - Content backups
 - Boot/recovery media support
 - Printed quick-start and recovery documentation
 - Replaceable storage and recoverable system design
 
-### 19. Simple, Repairable Architecture
+### 20. Simple, Repairable Architecture
 - Avoids unnecessary complexity in v1
 - Prioritizes serviceability and understandable system layout
 - Built around practical, replaceable parts and local control
 
 ## Optional Expansion Features
 
-### 20. Local Chat
+### 21. Local Chat
 - Local-only chat for disconnected teams
 - Supports basic coordination without external messaging platforms
 
-### 21. Task Board
+### 22. Task Board
 - Shared local task list or work queue
 - Useful for response coordination and operational management
 
-### 22. Inventory Tracker
+### 23. Inventory Tracker
 - Tracks parts, supplies, tools, and other resources locally
 - Useful for planning and survival logistics
 
-### 23. Medical Reference Index
+### 24. Medical Reference Index
 - Specialized quick-access layer for medical and trauma references
 - Designed to reduce time-to-information during emergencies
 
-### 24. Radio / Comms Reference Tools
+### 25. Radio / Comms Reference Tools
 - Frequency references
 - radio documentation
 - procedures and quick-reference communications notes
 
-### 25. Small Local AI Assistant
+### 26. Small Local AI Assistant
 - Browser-accessible assistant powered by local models
 - Grounded on local knowledge via RAG
 - Can assist with troubleshooting, retrieval, and procedural guidance
